@@ -1,0 +1,22 @@
+# 
+# 
+# 
+PROJECT     =  "Bangkok LDP"
+OFFSET_PP   = -40    #  m 
+LDP         = ['TM','100:38' ]     # longitude in degree and minute ! for central merdian
+FALSE_EN    = 'AUTO'        # make coordinate look nice , compact and easier to handle
+
+[TEST_POINT]
+GPKG  = ['CACHE/PointMSL_Bangkok Metropolis.gpkg','Point']   # centroid of the constuction site
+
+[UTM_LDP]
+PROJ='EPSG:32647'
+#RTK1=[ 783582.86, 1647318.61, 123.0 ]
+#RTK2=[ 783622.71, 1647262.97, 456.0 ]
+
+[LDP_UTM]
+PROJ='EPSG:32647'
+#BLDG-1=[ 5200.000, 5300.000, 260.0 ]
+#BLDG-2=[ 5225.000, 5300.000, 260.0 ]
+#BLDG-3=[ 5225.000, 5400.000, 260.0 ]
+#BLDG-4=[ 5200.000, 5400.000, 260.0 ]

@@ -1,0 +1,16 @@
+# 
+# 
+# 
+PROJECT     =  "Samui LDP"
+LDP         = [ 'TM', '99:59' ]     # longitude in degree and minute ! for central merdian
+#OFFSET_PP   =  0           # m
+FALSE_EN    = 'AUTO'        # make coordinate look nice , compact and easier to handle
+
+[TEST_POINT]
+GPKG  = ['./CACHE/PointMSL_Samui.gpkg','Point']   # centroid of the constuction site
+
+[UTM_LDP]
+PROJ='EPSG:32647'
+
+[LDP_UTM]
+PROJ='EPSG:32647'
